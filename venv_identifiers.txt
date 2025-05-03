@@ -161,6 +161,7 @@ ARRAY
 ARRAY_ALIGN
 ARRAY_FUNCTIONS
 ARRAY_SHAPES_TO_TEST
+ARRAY_TYPES
 ARTIST
 AR_LIKE_M
 AR_LIKE_O
@@ -1354,6 +1355,7 @@ COMMON_LVB_MASK
 COMMON_LVB_REVERSE_VIDEO
 COMMON_LVB_TRAILING_BYTE
 COMMON_LVB_UNDERSCORE
+COMPACT_ESCAPES
 COMPARE_OP
 COMPARISONS
 COMPARISON_OPERATORS
@@ -1892,6 +1894,7 @@ ColorSequenceRegistry
 ColorSpace
 ColorSystem
 ColorTB
+ColorTable
 ColorTriplet
 ColorType
 Colorbar
@@ -2397,6 +2400,7 @@ CustomWriter
 CxV8U8
 Cxy
 Cycler
+CyclicDependencyError
 CygwinCCompiler
 CypherLexer
 Cyrillic
@@ -2677,6 +2681,7 @@ DOTTED_OPERATORS_LIST
 DOT_BINARY
 DOT_PATTERN
 DOUBLE
+DOUBLE_BORDER
 DOWN
 DOWNLOADFACE
 DOWNLOADHEADER
@@ -2727,6 +2732,7 @@ DXT3_FOURCC
 DXT4
 DXT5
 DXT5_FOURCC
+DYSLEXIA_FRIENDLY
 DarcsPatchLexer
 DartLexer
 DarwinCPUInfo
@@ -2871,6 +2877,8 @@ Demo
 DemoError
 DependencyFinder
 DependencyGraph
+DependencyGroupInclude
+DependencyGroupResolver
 DependencyNode
 DependencyWarning
 Deprecated
@@ -3049,7 +3057,6 @@ Down
 Download
 DownloadColumn
 DownloadCommand
-DownloadProgressRenderer
 Downloader
 Dr6
 Dr7
@@ -3126,6 +3133,7 @@ EADDRINUSE
 EADDRNOTAVAIL
 EAFNOSUPPORT
 EAGAIN
+EARTH
 EASTER_JULIAN
 EASTER_ORTHODOX
 EASTER_WESTERN
@@ -3754,6 +3762,7 @@ FG_DEFAULT
 FG_SUBTLE
 FIELD
 FIELDNAME_MATCHER
+FIELD_NAMES
 FILE
 FILENAME
 FILENAME_RE
@@ -3890,6 +3899,7 @@ FORWARDER
 FORWARDREF
 FOURCC
 FRAGMENT_CHARS
+FRAME
 FRAMES
 FRAMEWORKS_PATH
 FREEBSD
@@ -4400,6 +4410,7 @@ GIF89_64
 GIF_64
 GITHUB_ACTIONS
 GIT_VERSION_REGEX
+GLARE_REDUCTION
 GLIFFormatVersion
 GLIFPointPen
 GLOBAL
@@ -4992,6 +5003,7 @@ HIDDEN
 HIDE_CURSOR
 HIGHEST_PROTOCOL
 HIGHRESPRECALC
+HIGH_CONTRAST
 HIGH_PRIORITY_CLASS
 HINSTANCE
 HKEY
@@ -5027,6 +5039,7 @@ HREF
 HRESULT
 HRGN
 HRSRC
+HRuleStyle
 HSL_COLOR
 HSL_HUE
 HSL_LUMINOSITY
@@ -5612,6 +5625,7 @@ IncompatibleFontsError
 IncompatibleGlyphsError
 IncompatibleSegmentNumberError
 IncompatibleSegmentTypesError
+IncompleteDownloadError
 IncompleteRead
 IncompleteTaskText
 InconsistentCandidate
@@ -5864,6 +5878,7 @@ ItemGetterCallable
 ItemsView
 Iterable
 IterableMixin
+IterableView
 IterationsPerSecond
 Iterator
 IteratorMapping
@@ -6126,6 +6141,7 @@ LANCZOS
 LAND
 LANG_EXT
 LAST_ENDPOINT
+LAVENDER
 LAYERCONTENTS_FILENAME
 LAYERINFO_FILENAME
 LAYOUT_BITMAPORIENTATIONPRESERVED
@@ -6570,6 +6586,7 @@ LocatorH
 LocatorHM
 LocatorHMS
 Lock
+LockCommand
 LockDraw
 LockTests
 LockableBbox
@@ -6666,6 +6683,7 @@ MAKE_LPARAM
 MAKE_WPARAM
 MANDATORY_KEYS
 MAPPINGS
+MARKDOWN
 MARKER
 MARKERS
 MARKERS_ALLOWING_SET
@@ -6709,6 +6727,7 @@ MAX_F2DOT14
 MAX_FRAMES
 MAX_IO_MSG_SIZE
 MAX_ITEMS
+MAX_LINE_LENGTH
 MAX_LONG_STRINGS
 MAX_LOOKBACK
 MAX_MODULE_NAME32
@@ -6921,6 +6940,7 @@ MSFontDirectories
 MSG_T_SIZE
 MSUserFontDirectories
 MSVCCompiler
+MSWORD_FRIENDLY
 MS_VC_EXCEPTION
 MSubArray
 MUL
@@ -7052,6 +7072,7 @@ MatchVariable
 Matcher
 MatcherAPIv2
 MatcherResult
+Matches
 MaterialStyle
 Math
 MathDirective
@@ -7636,7 +7657,6 @@ NoContentLengthHandler
 NoDefault
 NoDefaultSpecified
 NoDefaultType
-NoDefaultTypeMeta
 NoDelayHandler
 NoDists
 NoEmoji
@@ -7697,7 +7717,6 @@ NormalizedAxisLimits
 NormalizedAxisRange
 NormalizedAxisTriple
 NormalizedAxisTripleAndDistances
-NormalizedExtra
 NormalizedLicenseExpression
 NormalizedMatcher
 NormalizedName
@@ -7782,6 +7801,8 @@ OBJ_METAFILE
 OBJ_PAL
 OBJ_PEN
 OBJ_REGION
+OCEAN
+OCEAN_DEEP
 OCTAL
 OECF
 OEM_FIXED_FONT
@@ -7833,6 +7854,7 @@ ORANGE
 ORANGE_2
 ORANGE_3
 ORDERED
+ORGMODE
 ORIGIN_JSON_NAME
 OS2Field
 OS2_UNICODE_RANGES
@@ -8050,6 +8072,7 @@ OptionalValue
 Options
 OptionsHandler
 OptionsTest
+OptionsType
 Or
 OrderedDict
 OrderedDictResolver
@@ -8128,6 +8151,7 @@ PARTITION_DICT
 PASSES_THROUGH_NAN_NULLS
 PASSTHROUGH
 PASS_DIR
+PASTEL
 PATCOPY
 PATH
 PATHS_FROM_ECLIPSE_TO_PYTHON
@@ -8248,6 +8272,7 @@ PKG_INFO
 PKG_INFO_ENCODING
 PKG_INFO_PREFERRED_VERSION
 PLAIN
+PLAIN_COLUMNS
 PLAIN_HEADED_SUBSTITUTIONS
 PLAIN_PASSWORD
 PLAIN_SERVER
@@ -8609,6 +8634,7 @@ PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT
 PYDEV_FILE
 PYDEV_NOSE_PLUGIN_SINGLETON
 PYGMENTS_DEFAULT_STYLE
+PYLOCK_FILE_NAME_RE
 PYPI_MD5
 PYPY
 PYTEST_PARALLEL
@@ -8629,14 +8655,19 @@ PackException
 PackOverflowError
 PackValueError
 Package
+PackageArchive
 PackageDetails
+PackageDirectory
 PackageDiscoveryError
 PackageFinder
 PackageIndex
 PackageMetadata
 PackageNotFoundError
 PackagePath
+PackageSdist
 PackageSet
+PackageVcs
+PackageWheel
 PackagingMagics
 PackedStructure
 Packer
@@ -9040,6 +9071,7 @@ PrePostDevType
 PrecededBy
 Precedence
 Predictor
+Preference
 PreferenceInformation
 PrefilterChecker
 PrefilterError
@@ -9054,6 +9086,7 @@ Pressure
 Pretty
 PrettyHelpFormatter
 PrettyPrinter
+PrettyTable
 PreviewApplicationName
 PreviewApplicationVersion
 PreviewColorSpace
@@ -9168,6 +9201,7 @@ ProgressColumn
 ProgressEndEvent
 ProgressEndEventBody
 ProgressPrinter
+ProgressRenderer
 ProgressSample
 ProgressStartEvent
 ProgressStartEventBody
@@ -9291,6 +9325,7 @@ PygmentsLexer
 PygmentsSyntaxTheme
 PygmentsTokens
 PylabMagics
+Pylock
 PyperclipClipboard
 PytestDoctestRunner
 PytestTester
@@ -9464,6 +9499,7 @@ R8_UINT
 R8_UNORM
 R9G9B9E5_SHAREDEXP
 RADIO
+RANDOM
 RANGES
 RAQM
 RASTERIZE
@@ -9556,6 +9592,7 @@ REQ_RELAXED
 RESERVED
 RESERVED_MASK
 RESET
+RESET_CODE
 RESET_UNSPECIFIED_AXES
 RESIZE_HORIZONTAL
 RESIZE_VERTICAL
@@ -9621,6 +9658,7 @@ ROUTER_MANDATORY
 ROUTER_NOTIFY
 ROUTER_RAW
 ROUTING_ID
+ROWS
 ROWSPERSTRIP
 RPAREN
 RPC_S_SERVER_UNAVAILABLE
@@ -9630,6 +9668,7 @@ RSV1
 RSV2
 RSV3
 RSV_MASK
+RT
 RTL_ACTIVATION_CONTEXT_STACK_FRAME
 RTL_CRITICAL_SECTION
 RTL_CRITICAL_SECTION_DEBUG
@@ -9918,6 +9957,7 @@ Resolution
 ResolutionError
 ResolutionImpossible
 ResolutionTooDeep
+ResolutionTooDeepError
 ResolutionUnit
 ResolveTimeoutTestCase
 Resolver
@@ -10392,6 +10432,7 @@ SIMPLE_CONTROL_BINDINGS
 SINGFormat
 SINGLE
 SINGLETONS
+SINGLE_BORDER
 SINGLE_WORDS_DECLARATIONS
 SINGLE_WORD_KEYWORDS
 SINGLE_WORD_NAMESPACE_KEYWORDS
@@ -10995,7 +11036,6 @@ SeparateBodyFileCache
 SeparateUnicode
 SeparatedValues
 Sequence
-SequenceCandidate
 SequenceLike
 SequenceLiteralValue
 SequenceTypes
@@ -12046,6 +12086,8 @@ TableBlock
 TableBuilder
 TableConverter
 TableGenLexer
+TableHandler
+TableStyle
 TableUnbuilder
 TabsProcessor
 TactLexer
@@ -13086,6 +13128,7 @@ Theme
 ThemeContext
 ThemeStack
 ThemeStackError
+Themes
 ThetaAxis
 ThetaFormatter
 ThetaLocator
@@ -13853,6 +13896,7 @@ VOS__WINDOWS32
 VOriginRecord
 VOriginRecords
 VPacker
+VRuleStyle
 VS16_NARROW_TO_WIDE
 VSInstallDir
 VSTools
@@ -16970,6 +17014,7 @@ __offset
 __op__
 __optionalNotMatched
 __or__
+__other
 __package__
 __parameters__
 __patched_cves__
@@ -17335,6 +17380,7 @@ _android_downloads_folder
 _android_folder
 _android_music_folder
 _android_pictures_folder
+_android_platforms
 _android_videos_folder
 _angle_dispatcher
 _angle_units
@@ -17488,6 +17534,7 @@ _atleast_nd
 _attach_tzinfo
 _attached_input
 _attempt_download
+_attempt_resume
 _attempt_to_pin_criterion
 _attr
 _attr_list
@@ -17689,6 +17736,7 @@ _build_one_inside_env
 _build_package_finder
 _build_part
 _build_paths
+_build_resolvers
 _build_result
 _build_session
 _build_shebang
@@ -18139,6 +18187,7 @@ _colors_full_map
 _colors_to_code
 _colour_codes
 _column_cells
+_column_specific_args
 _column_stack_dispatcher
 _columns
 _comb
@@ -18236,8 +18285,10 @@ _compute_regular_polygon_vertices
 _compute_repr_slow
 _compute_size_by_dict
 _compute_stack_size
+_compute_table_width
 _compute_tri_eccentricities
 _compute_virtual_index
+_compute_widths
 _concatenate
 _concatenate_getitem
 _concatenate_shapes
@@ -18993,7 +19044,7 @@ _elide_typed
 _eligible_for_upgrade
 _embedTeXFont
 _embedded_frames
-_emit_egg_deprecation
+_emit_pkg_resources_deprecation_if_needed
 _emoji_replace
 _emoji_sub
 _emptyRE
@@ -19255,6 +19306,7 @@ _extractSubSpace
 _extract_alphanums
 _extract_buffers
 _extract_caret_anchors_in_bytes_from_line_segment
+_extract_causes
 _extract_debug_options
 _extract_dispatcher
 _extract_errs
@@ -19381,8 +19433,6 @@ _find_duplicates_dispatcher
 _find_edit_target
 _find_egg_info
 _find_egg_info_dir
-_find_eggs_in_dir
-_find_eggs_in_zip
 _find_escape_tokens
 _find_exe
 _find_existing_fcompiler
@@ -19486,7 +19536,6 @@ _first_paragraph
 _fit
 _fix
 _fixOffsets
-_fix_abiflags
 _fix_args
 _fix_compile_args
 _fix_contents
@@ -19610,6 +19659,8 @@ _format_maybe_minus_and_locale
 _format_non_nat
 _format_option_strings
 _format_path
+_format_row
+_format_rows
 _format_step
 _format_term
 _format_ticks
@@ -20011,6 +20062,7 @@ _get_display_formatter
 _get_dist_for
 _get_dist_info_dir
 _get_dist_to_box
+_get_dividers
 _get_docstring
 _get_docstring_signature
 _get_dotted_attr
@@ -20071,6 +20123,8 @@ _get_format_control
 _get_format_function
 _get_formatdict
 _get_formatted_doc
+_get_formatted_html_string
+_get_formatted_latex_string
 _get_formatted_text_cached
 _get_formatted_text_for_line_func
 _get_forward_reference_node
@@ -20114,6 +20168,7 @@ _get_hintmask
 _get_hist_file_name
 _get_hit_condition_expression
 _get_host_port
+_get_http_response_etag_or_last_modified
 _get_http_response_filename
 _get_http_response_size
 _get_ident
@@ -20263,6 +20318,7 @@ _get_opposite_direction
 _get_optimize
 _get_option
 _get_option_completions
+_get_options
 _get_or_compute_thread_id_with_lock
 _get_or_default
 _get_ordered_configuration_items
@@ -20278,6 +20334,7 @@ _get_package_data_output_mapping
 _get_package_dir
 _get_packed_offsets
 _get_padding_width
+_get_padding_widths
 _get_palette_bytes
 _get_pan_points
 _get_param_node
@@ -20370,6 +20427,7 @@ _get_root
 _get_rorigin
 _get_rotate_command
 _get_rotation_transform
+_get_rows
 _get_runner
 _get_running_interactive_framework
 _get_safe_box
@@ -20394,6 +20452,8 @@ _get_signature
 _get_signature_details_from_error_node
 _get_signature_param_names
 _get_signatures
+_get_simple_html_string
+_get_simple_latex_string
 _get_simple_response
 _get_simplified
 _get_size
@@ -20686,6 +20746,7 @@ _handle_connect
 _handle_connection
 _handle_container
 _handle_cssblock
+_handle_dependency_group
 _handle_disconnect
 _handle_enter
 _handle_event
@@ -21106,6 +21167,7 @@ _invalidates_cache
 _inverse_boundaries
 _inverse_tester
 _inverted_cdf
+_invoke_pip
 _io_dispatch
 _io_wrapper
 _ioloop_for_asyncio
@@ -21465,6 +21527,7 @@ _iter_parts
 _iter_pytest_modules
 _iter_requires_txt_entries
 _iter_stmts
+_iter_syntax_lines
 _iter_visible_frames_info
 _iterate
 _iterate_star_args
@@ -21502,6 +21565,7 @@ _jupyter_abspath
 _jupyter_aliases
 _jupyter_mimetype
 _jupyter_path_default
+_justify
 _kde_method
 _keep_fields
 _keepdims
@@ -21716,6 +21780,7 @@ _load_pilfont
 _load_pilfont_data
 _load_properties
 _load_pypirc
+_load_pyproject
 _load_pytest_plugins
 _load_python_helper_lib
 _load_python_helper_lib_uncached
@@ -22252,6 +22317,7 @@ _normalize_cached
 _normalize_create_args
 _normalize_extra_values
 _normalize_grid_string
+_normalize_group_names
 _normalize_header
 _normalize_host
 _normalize_image_array
@@ -22490,6 +22556,7 @@ _ortho_transformation
 _os
 _os_path_join
 _os_release_info
+_osc8_re
 _oslevel_info
 _osvi
 _other
@@ -22618,6 +22685,7 @@ _parse_filters
 _parse_full_marker
 _parse_function_doc
 _parse_glibc_version
+_parse_group
 _parse_gufunc_signature
 _parse_header
 _parse_headers
@@ -22970,6 +23038,7 @@ _process_radius
 _process_regex
 _process_requires_dist
 _process_requires_python
+_process_response
 _process_server_headers
 _process_signature
 _process_site_dirs
@@ -23478,6 +23547,7 @@ _reserve_random_port
 _reserved_chars_re
 _reset
 _resetExistingLoggers
+_reset_download_state
 _reset_epoch_test_example
 _reset_locator_formatter_scale
 _reset_major_tick_kw
@@ -23496,6 +23566,7 @@ _resize_dispatcher
 _resolution_units
 _resolve
 _resolve_addr
+_resolve_all_groups
 _resolve_ambiguous_time
 _resolve_annotation
 _resolve_as_ep
@@ -23556,7 +23627,8 @@ _revert
 _rewriteLast
 _rgb
 _rgb_to_rgba
-_rich_progress_bar
+_rich_download_progress_bar
+_rich_install_progress_bar
 _rich_traceback_guard
 _right
 _right_delims
@@ -23742,7 +23814,6 @@ _searchsorted_dispatcher
 _secax_docstring
 _secprops
 _section
-_secure_open_write
 _seek
 _seek_check
 _seg_0
@@ -23914,6 +23985,7 @@ _set_ciphers
 _set_circle
 _set_cmap
 _set_colorizer_check_keywords
+_set_columns_style
 _set_command_options
 _set_completions
 _set_config
@@ -23925,9 +23997,11 @@ _set_custom_marker
 _set_debug
 _set_debug_options
 _set_default
+_set_default_style
 _set_device_pixel_ratio
 _set_diamond
 _set_docstring
+_set_double_border_style
 _set_dpi
 _set_edgecolor
 _set_editable_mode
@@ -23960,6 +24034,7 @@ _set_lims
 _set_loc
 _set_locator
 _set_mappable_flags
+_set_markdown_style
 _set_marker
 _set_markercolor
 _set_mask
@@ -23968,10 +24043,12 @@ _set_metadata_defaults
 _set_mode
 _set_module
 _set_months
+_set_msword_style
 _set_new_active_manager
 _set_nothing
 _set_octagon
 _set_order_of_magnitude
+_set_orgmode_style
 _set_ostream
 _set_pad_area
 _set_parent_ns
@@ -23987,6 +24064,7 @@ _set_position
 _set_pprinter_factory
 _set_printoptions
 _set_proxy_headers
+_set_random_style
 _set_reflect_both
 _set_req_to_reinstall
 _set_requirement
@@ -23998,6 +24076,7 @@ _set_scale
 _set_scheme
 _set_scripts
 _set_segments
+_set_single_border_style
 _set_socket_options
 _set_square
 _set_ssl_context_verify_mode
@@ -24320,6 +24399,7 @@ _stay
 _std
 _std_dispatcher
 _stderr
+_stderr_console
 _stderr_raw
 _stderr_supports_color
 _stdin
@@ -24330,6 +24410,7 @@ _stdin_thread
 _stdin_writeln
 _stdlib_to_openssl_verify
 _stdout
+_stdout_console
 _stdout_raw
 _stdout_thread
 _step
@@ -24345,6 +24426,7 @@ _stop_trace
 _stop_tunnel
 _stopped
 _store_pypirc
+_str_block_width
 _str_equal
 _str_escapes
 _str_from_providers
@@ -24366,6 +24448,10 @@ _string_or_data_element
 _string_permute
 _string_start
 _stringescapes
+_stringify_header
+_stringify_hrule
+_stringify_row
+_stringify_title
 _strip
 _strip_annotations
 _strip_comment
@@ -24637,6 +24723,7 @@ _tokens
 _tokens_filename
 _tol
 _tolerate_no_process
+_toml_dict_factory
 _tool_registry
 _tool_toggled_cbk
 _tool_trigger_cbk
@@ -24993,10 +25080,13 @@ _valid_name
 _valid_shading
 _validate
 _validateAndMassagePointStructures
+_validate_align
+_validate_all_field_names
 _validate_and_normalize_with_numpy
 _validate_and_normalize_without_numpy
 _validate_and_store_entry_points
 _validate_arch
+_validate_attributes
 _validate_bounds
 _validate_cmap
 _validate_color_or_linecolor
@@ -25006,14 +25096,21 @@ _validate_data
 _validate_date
 _validate_dependencies_met
 _validate_editing_mode
+_validate_field_name
+_validate_field_names
+_validate_float_format
 _validate_fromutc_inputs
+_validate_function
 _validate_grabframe_kwargs
 _validate_greaterequal0_lessequal1
 _validate_greaterthan_minushalf
 _validate_hatch_pattern
 _validate_header_part
+_validate_header_style
+_validate_hrules
 _validate_index
 _validate_input
+_validate_int_format
 _validate_int_greaterequal0
 _validate_legend_loc
 _validate_linestyle
@@ -25027,7 +25124,10 @@ _validate_metadata
 _validate_minor_tick_ndivs
 _validate_named_legend_loc
 _validate_named_linestyle
+_validate_none_format
+_validate_nonnegative_int
 _validate_optimize
+_validate_option
 _validate_path
 _validate_pathlike
 _validate_proxy_scheme_url_selection
@@ -25036,14 +25136,18 @@ _validate_requirements
 _validate_resource_path
 _validate_shapes
 _validate_shebang
+_validate_single_char
 _validate_ssl_context_for_tls_in_tls
 _validate_state
 _validate_steps
 _validate_timeout
 _validate_toolbar
+_validate_true_or_false
 _validate_unit
+_validate_valign
 _validate_value
 _validate_version
+_validate_vrules
 _validators
 _valnd
 _value
@@ -25171,6 +25275,7 @@ _walk_mro
 _warn
 _warn_about_conflicts
 _warn_accidental_env_marker_misconfig
+_warn_deprecation
 _warn_destroy_close
 _warn_if_gui_out_of_main_thread
 _warn_if_mismatch
@@ -25285,6 +25390,7 @@ _write_array_header
 _write_buffer
 _write_callback
 _write_callback_pointer
+_write_chunks_to_file
 _write_clips
 _write_default_style
 _write_dispatch
@@ -25790,6 +25896,7 @@ add_attach_points
 add_attachment
 add_attribute_error
 add_auto_adjustable_area
+add_autoindex
 add_axes
 add_axobserver
 add_binding
@@ -25841,6 +25948,7 @@ add_define_macros
 add_dict_to_cookiejar
 add_dir
 add_distribution
+add_divider
 add_dont_terminate_child_pid
 add_edge
 add_empty_lines
@@ -25967,6 +26075,7 @@ add_restart_callback
 add_reverse_chain_single_subst
 add_routes
 add_row
+add_rows
 add_rules
 add_runtime_library_dir
 add_s
@@ -26252,6 +26361,8 @@ aligned_curve
 aligned_offset
 aligned_parts
 alignment
+alignment_str
+alignments
 alist
 alive
 all
@@ -26446,6 +26557,7 @@ allow_none
 allow_nonstandard_methods
 allow_number
 allow_order
+allow_partial
 allow_pickle
 allow_prereleases
 allow_rasterization
@@ -27206,6 +27318,7 @@ as_term_coeff
 as_terms
 as_ternary
 as_text
+as_toml
 as_tuple
 as_variable
 as_z_interp
@@ -27469,6 +27582,7 @@ attach_win32_input
 attach_winch_signal_handler
 attempt
 attempts
+attempts_left
 attention_headers
 attr
 attr1
@@ -27485,6 +27599,7 @@ attr_name
 attr_names
 attr_names_match
 attr_state
+attr_str
 attr_to_set_result
 attr_type
 attr_val
@@ -28027,8 +28142,8 @@ backslash_continuation
 backslashes
 backslashflag
 backspace_and_resume_hint
-backtrack_cause
 backtrack_causes
+backtrack_identifiers
 backup
 backup_dir
 backup_hist_file
@@ -28192,7 +28307,6 @@ base_exception
 base_executable
 base_expr
 base_ext
-base_extra_items_type
 base_file
 base_filename
 base_flags
@@ -28422,6 +28536,7 @@ beginPath
 beginStream
 begin_auth
 begin_capture
+begin_cmd
 begin_document
 begin_group
 begin_inside
@@ -28633,6 +28748,7 @@ bitrate
 bits
 bits_per_line
 bits_per_pixel
+bits_str
 bits_used
 bitsize
 bitwise_and
@@ -28856,9 +28972,12 @@ both_values
 bottom
 bottomSideY
 bottom_axis
+bottom_junction_char
 bottom_kw
 bottom_kwarg
+bottom_left_junction_char
 bottom_lines
+bottom_right_junction_char
 bottom_space
 bottom_toolbar
 bottom_visible
@@ -28964,6 +29083,7 @@ break_flag
 break_mode
 break_on_caught
 break_on_error
+break_on_hyphens
 break_on_uncaught
 break_on_uncaught_exceptions
 break_on_user_caught
@@ -29270,6 +29390,7 @@ build_suite
 build_system
 build_tag
 build_tag_groups
+build_tags
 build_temp
 build_time_dependency
 build_tmp
@@ -29477,6 +29598,7 @@ bytes_mv
 bytes_out
 bytes_per_line
 bytes_read
+bytes_received
 bytes_removed
 bytes_string
 bytes_to_read
@@ -30334,6 +30456,7 @@ charref
 chars
 charsAsStr
 chars_len
+chars_to_remove
 chars_to_strip
 chars_written
 charselect
@@ -30968,6 +31091,7 @@ clear_overloads
 clear_payload
 clear_processes
 clear_redo_stack
+clear_rows
 clear_screen
 clear_sf
 clear_state
@@ -31123,6 +31247,7 @@ closeto
 closing
 closing_brace
 closing_brace_callback
+closing_bracket_indent
 closing_call_name
 closing_chars
 closing_quote_pos
@@ -31425,6 +31550,7 @@ col_axis
 col_bounds
 col_data_lim
 col_formats
+col_index
 col_inds
 col_labels
 col_len
@@ -31571,6 +31697,8 @@ colstop
 coltup
 coltype
 column
+column1
+column2
 column_count
 column_difference
 column_first
@@ -32268,6 +32396,7 @@ content_check
 content_disposition
 content_encoding
 content_expr
+content_file
 content_headers
 content_height
 content_len
@@ -32895,6 +33024,7 @@ creds_by_repository
 crimson_editor
 criteria
 criterion
+criteron
 critical
 critical_value
 crlf
@@ -32949,7 +33079,10 @@ css_style
 cssfilename
 cstack
 cstride
+csv_buffer
 csv_io_kwargs
+csv_options
+csv_writer
 ct
 ct_bytes
 ct_types
@@ -33115,6 +33248,7 @@ currentValue
 current_age
 current_angle
 current_ax
+current_backtrack_causes
 current_block
 current_buffer
 current_char
@@ -33274,6 +33408,7 @@ custom_dont_trace_external_files
 custom_dst
 custom_dst_t
 custom_exceptions
+custom_format
 custom_formats
 custom_frames
 custom_frames_container_init
@@ -33399,6 +33534,7 @@ dZ1
 dZ2
 d_args
 d_attrib_rev
+d_height
 d_in
 d_int
 d_interval
@@ -33931,6 +34067,7 @@ dec
 dec_args
 dec_kwargs
 dec_params
+dec_str
 dec_values
 decade_test
 decades
@@ -34133,6 +34270,7 @@ default_char
 default_char2
 default_charstring
 default_charstrings
+default_color
 default_color_depth
 default_commands
 default_config
@@ -34309,10 +34447,12 @@ degree_steps
 degree_steps_
 degrees
 del_cl
+del_column
 del_list
 del_modules
 del_op
 del_root
+del_row
 del_stmt
 del_upto
 del_var
@@ -34434,6 +34574,8 @@ depdoc
 depend
 depend_dict
 dependencies
+dependency_groups
+dependency_groups_raw
 dependent_req
 depends
 depickled_arr_with_object
@@ -35069,6 +35211,7 @@ dividend
 dividend_array
 dividend_dtype
 divider
+dividers
 divisor
 divisor_dtype
 divisor_parms
@@ -35201,6 +35344,7 @@ do_makearray
 do_memory
 do_modecrap
 do_modload
+do_multiline
 do_next
 do_one_token_transform
 do_opt
@@ -36803,7 +36947,9 @@ escape_char_re
 escape_character
 escape_code_cache
 escape_control_codes
+escape_data
 escape_funcs
+escape_header
 escape_html
 escape_id
 escape_pattern
@@ -36830,6 +36976,7 @@ et
 eta1
 eta2
 etag
+etag_or_last_modified
 etags
 etb
 etc_dir_os_release_file
@@ -37018,6 +37165,7 @@ exception_options
 exception_paths
 exception_template
 exception_text
+exception_traceback
 exception_type
 exception_types
 exception_value
@@ -37800,7 +37948,7 @@ failobj
 fails_marker
 failure
 failureTests
-failure_causes
+failure_criterion
 failure_tests
 failures
 fake_attributes
@@ -38054,6 +38202,7 @@ fieldinfo
 fieldmap
 fieldname
 fields
+fields_option
 fields_to_check
 fieldsep
 fig
@@ -38411,7 +38560,6 @@ find_distributions
 find_dll
 find_duplicate
 find_duplicates
-find_eggs
 find_eggs_in_zip
 find_enclosing_bracket_left
 find_enclosing_bracket_right
@@ -38438,13 +38586,13 @@ find_in_pythonpath
 find_kernel_specs
 find_kwargs
 find_last_indent
+find_legacy_editables
 find_lexer_class
 find_lexer_class_by_name
 find_lexer_class_for_filename
 find_lib_arg
 find_library_file
 find_line_magic
-find_linked
 find_links
 find_links_sources
 find_lookup_builders_
@@ -38910,7 +39058,6 @@ fmatmul
 fmax
 fmin
 fmod
-fmode
 fmodule_sources
 fms
 fmsk
@@ -38931,6 +39078,7 @@ fmted
 fmter
 fmtin
 fmtout
+fmtparams
 fmts
 fn
 fn1
@@ -39231,6 +39379,7 @@ format_aliases
 format_arg
 format_array
 format_blank_lines_linenumbers
+format_code
 format_code_name
 format_command
 format_command_args
@@ -39244,6 +39393,7 @@ format_data_short
 format_date
 format_day
 format_debug
+format_decimal
 format_deltas
 format_description
 format_dict
@@ -39277,13 +39427,17 @@ format_header_param_rfc2231
 format_heading
 format_i
 format_info
+format_inline_array
+format_inline_table
 format_instr
 format_invalid
 format_kernel_cmd
+format_key_part
 format_latex
 format_line
 format_lines
 format_link
+format_literal
 format_mime
 format_name
 format_option_strings
@@ -39340,6 +39494,7 @@ formatted_field
 formatted_line
 formatted_message
 formatted_name
+formatted_rows
 formatted_target
 formatted_tb
 formatted_text
@@ -39612,8 +39767,10 @@ from_code
 from_color
 from_config
 from_context
+from_csv
 from_data
 from_datetime
+from_db_cursor
 from_default_resolver
 from_dict
 from_directory
@@ -39631,10 +39788,14 @@ from_filename
 from_float
 from_frame
 from_future_import_name
+from_html
+from_html_one
 from_httplib
 from_i
 from_image
 from_import_name
+from_install_requirement
+from_install_requirements
 from_int
 from_ireq
 from_json
@@ -39644,6 +39805,7 @@ from_line
 from_list
 from_location
 from_markup
+from_mediawiki
 from_meta
 from_metadata_file_contents
 from_name
@@ -40055,6 +40217,7 @@ gen_root
 gen_rubystrings_rules
 gen_script
 gen_setup
+gen_table_chunks
 gen_test
 gen_usage
 gen_vals
@@ -40103,6 +40266,7 @@ generate_segments
 generate_sources
 generate_state
 generate_svn_version_py
+generate_table
 generate_tip
 generate_tokens
 generate_tokens_catch_errors
@@ -40627,6 +40791,7 @@ get_cpp_triangulation
 get_cpuinfo_item
 get_css_prefix
 get_csv_rows_for_installed
+get_csv_string
 get_curr_output
 get_current_branch
 get_current_fig_manager
@@ -40890,6 +41055,7 @@ get_format
 get_format_mimetype
 get_formatted_file_tags
 get_formatted_locations
+get_formatted_string
 get_formatted_text
 get_formatted_text_for_line
 get_formatter_by_name
@@ -40984,6 +41150,7 @@ get_host
 get_host_platform
 get_host_port
 get_href
+get_html_string
 get_html_style
 get_http_client
 get_http_port
@@ -41018,9 +41185,11 @@ get_inputhook
 get_inputhook_name_and_func
 get_inputs
 get_install_candidate
+get_install_progress_renderer
 get_install_requirement
 get_installation_error
 get_installation_order
+get_installed_distribution
 get_instructions
 get_instructions_to_add
 get_int_opt
@@ -41055,6 +41224,7 @@ get_item
 get_iterable
 get_javascript
 get_joinstyle
+get_json_string
 get_jump
 get_jump_target
 get_jupyter_format_mimetype
@@ -41087,6 +41257,7 @@ get_last_modified
 get_last_session_id
 get_lastcmd
 get_latest_suite_node
+get_latex_string
 get_layout_engine
 get_leaf_for_position
 get_left_margin_bbox
@@ -41191,6 +41362,7 @@ get_max_vertical_scroll
 get_max_work
 get_mci
 get_measurement
+get_mediawiki_string
 get_memory_map
 get_menu_position
 get_merged_lazy_value
@@ -42691,11 +42863,13 @@ handle_color
 handle_comp
 handle_connection
 handle_coverage
+handle_data
 handle_dblclick
 handle_def
 handle_digit
 handle_display_options
 handle_draw
+handle_endtag
 handle_event
 handle_exception
 handle_extra_path
@@ -42833,6 +43007,7 @@ has_binding
 has_breakpoint_in_frame
 has_breaks
 has_build_options
+has_build_tags
 has_c
 has_c_compiler
 has_c_libraries
@@ -43476,6 +43651,9 @@ horiz_bases
 horiz_scripts
 horizontal
 horizontalAdvanceWidth
+horizontal_align_char
+horizontal_char
+horizontal_color
 horizontal_scroll
 horizontalalignment
 host
@@ -43533,6 +43711,8 @@ href
 href_local_target
 hres
 hroot
+hrule
+hrules
 hs
 hset
 hsh
@@ -43556,6 +43736,7 @@ html_attributes
 html_block
 html_bodies
 html_body
+html_code
 html_comment
 html_contents
 html_dir
@@ -43782,6 +43963,7 @@ if_modified_since
 if_names
 if_needed_vals
 if_no_repeat
+if_range
 if_since
 if_stmt
 if_stmt_test
@@ -44228,6 +44410,7 @@ include_flows
 include_footers
 include_fstring
 include_generic
+include_group
 include_host
 include_initial
 include_joined_str
@@ -44283,8 +44466,6 @@ incompatibilities_from_broken
 incompatible
 incompatible_deps
 incompatible_ids
-incompatible_reqs
-incompatible_state
 incomplete_scheme
 incorrect_entries
 incpts
@@ -44445,7 +44626,6 @@ inferno
 inferred
 inferred_args
 inferred_context
-inferred_depth
 inferred_format
 inferred_value
 infile
@@ -44601,6 +44781,7 @@ initial_path
 initial_paths
 initial_paths_with_end_sep
 initial_pid
+initial_progress
 initial_range
 initial_re
 initial_shape
@@ -44830,10 +45011,12 @@ inset_axes
 inset_locator
 inside
 inside_after_round
+inside_aot
 inside_before_round
 inside_circle
 inside_closedpath
 inside_root
+inside_table
 insleft
 insp
 inspect
@@ -45474,6 +45657,7 @@ is_annassign
 is_any
 is_any_mat
 is_any_parent_included
+is_aot
 is_appending
 is_appengine
 is_appengine_sandbox
@@ -45491,7 +45675,6 @@ is_authenticated
 is_automagic
 is_automatic
 is_available
-is_backtrack_cause
 is_base
 is_bbox
 is_beating
@@ -45955,6 +46138,7 @@ is_subprocess_fork
 is_subsetted
 is_subtable_break
 is_success
+is_suitable_inline_table
 is_suite_part
 is_supported
 is_suppress
@@ -46005,6 +46189,7 @@ is_valid_id
 is_valid_ip
 is_valid_matcher
 is_valid_py_file
+is_valid_pylock_file_name
 is_valid_version
 is_valid_vp8_mode
 is_value_name
@@ -46264,6 +46449,7 @@ item_from_string
 item_id
 item_ids
 item_idx
+item_indent
 item_index
 item_ndim
 item_pos
@@ -46563,6 +46749,7 @@ json_output
 json_packer
 json_renderable
 json_schema_data
+json_string
 json_unpacker
 jsonloader
 jsonmod
@@ -46586,6 +46773,8 @@ jumpdays
 jumped
 jumped_state
 jumps
+junction_char
+junction_color
 jupyter_columns
 jupyter_config_dir
 jupyter_config_path
@@ -46756,6 +46945,7 @@ key_lower
 key_node
 key_offset
 key_param
+key_part
 key_parts
 key_password
 key_press
@@ -47479,10 +47669,13 @@ left_edge
 left_edges
 left_half_arrow
 left_index
+left_j_len
+left_junction_char
 left_kw
 left_length
 left_margin_widths
 left_margins
+left_padding_width
 left_shift
 left_slice
 left_stat
@@ -47520,6 +47713,8 @@ legacy_normalized
 legacy_repr
 legacy_resolver
 legacy_tag
+legacy_wheel_file_re
+legacy_wheel_info
 legacy_windows
 legacy_windows_render
 legadd
@@ -47823,6 +48018,7 @@ lineTo
 line_2d_to_3d
 line_alpha
 line_at_cursor
+line_break
 line_buffer
 line_buffering
 line_cache_key
@@ -47919,6 +48115,7 @@ linear_solve
 linear_spine
 linear_width
 linearize_page_tree
+linebreak
 linec
 linecap
 lineclause
@@ -48105,6 +48302,7 @@ listrepl
 lists
 literal
 literal_string
+literals
 little_endian
 live
 live_size
@@ -48439,7 +48637,6 @@ log_renderable
 log_request
 log_start
 log_stop
-log_streams
 log_subprocess
 log_text
 log_time
@@ -48748,6 +48945,7 @@ lpValue
 lpValueName
 lpVersionInfo
 lpWindowName
+lpad
 lpar
 lpargs
 lpath
@@ -49123,6 +49321,7 @@ make_evaluate_expression_message
 make_evaluation_timeout_msg
 make_exit_command
 make_f2py_compile_parser
+make_fields_unique
 make_file
 make_filename
 make_files
@@ -49457,6 +49656,7 @@ markouterparen
 markrec
 marks
 markup
+markup_chars
 markup_commands
 markup_enabled
 markup_example
@@ -49841,6 +50041,7 @@ max_src
 max_stop
 max_str_len
 max_string
+max_table_width
 max_text_width
 max_threads
 max_timeout
@@ -50390,6 +50591,7 @@ min_repeat
 min_rows
 min_scalar_type
 min_scroll
+min_table_width
 min_text_width
 min_update_interval_seconds
 min_val
@@ -50933,6 +51135,7 @@ multidim_data
 multiline
 multiline_start
 multiline_string
+multiline_strings
 multiline_text
 multiline_textbbox
 multilinebaseline
@@ -50961,6 +51164,7 @@ music_functions
 must_be_kwarg
 must_be_suspended
 must_match_these_tokens
+must_restart
 must_skip
 must_start_with
 must_wait
@@ -51341,6 +51545,8 @@ nanvar
 napostrophes
 nargs
 nargs_error
+narrow_requirement_selection
+narrowed_unstatisfied_names
 nat
 nat1
 nat2
@@ -51478,7 +51684,6 @@ need_rewrite
 need_scale
 need_value
 need_version_info
-need_wheel
 needed
 neededmodule
 neededvars
@@ -51540,6 +51745,7 @@ nep35_python_functions
 neq
 nerr
 nest
+nest_level
 nest_limit
 nest_lvl
 nested
@@ -52423,6 +52629,7 @@ nonce
 noncebit
 none
 none_dict
+none_format
 none_keys
 none_list
 none_mask
@@ -52510,6 +52717,7 @@ normalize_kwargs
 normalize_name
 normalize_newlines
 normalize_path
+normalize_project_url_label
 normalize_uri
 normalize_url
 normalize_version_info
@@ -52527,6 +52735,7 @@ normalized_dist_location
 normalized_expected_pyf
 normalized_expression
 normalized_extra
+normalized_groups
 normalized_internal
 normalized_item
 normalized_label
@@ -52551,6 +52760,7 @@ normcase
 normcase_from_client
 normdir
 normed
+normed_group_name
 normed_path
 normed_vals
 normpath
@@ -53408,6 +53618,7 @@ oldpos
 oldshape
 oldsize
 oldsm
+oldsortslice
 oldsqueeze
 oldstr
 oldtype
@@ -53730,6 +53941,7 @@ online_path
 only
 onlyExisting
 onlyHeader
+only_bare_key_chars
 only_binary
 only_directories
 only_fstring
@@ -53897,6 +54109,7 @@ open_resource
 open_result
 open_spinner
 open_success
+open_tag
 open_text
 open_text_resource
 open_token
@@ -54402,6 +54615,7 @@ out_exp
 out_extensions
 out_file
 out_flags
+out_format
 out_handler
 out_height
 out_height_base
@@ -54529,6 +54743,7 @@ output_dtype_like
 output_event
 output_fd
 output_file
+output_file_path
 output_filename
 output_filter
 output_flags
@@ -54859,6 +55074,7 @@ page_dumb
 page_file
 page_func
 page_info
+page_length
 page_links
 page_more
 page_node
@@ -54879,6 +55095,7 @@ pages_tree_node
 pages_tree_node_ref
 pages_tree_nodes_to_delete
 pagesize
+paginate
 paint
 paintEvent
 paint_path
@@ -55005,7 +55222,6 @@ parent_axes
 parent_classes
 parent_constraints
 parent_context
-parent_depths
 parent_dict
 parent_dir
 parent_evaluate_name
@@ -55183,6 +55399,7 @@ parse_def_glyph_
 parse_def_group_
 parse_def_lookup_
 parse_def_script_
+parse_dependency_groups
 parse_device_
 parse_dict
 parse_dict_header
@@ -55718,6 +55935,7 @@ perGlyphTableReader
 perSizeDataList
 perSizeOffset
 perSizeValueData
+per_col_padding
 per_cpu
 per_cpu_percent
 per_cpu_times
@@ -55991,6 +56209,7 @@ platform_tags
 platforms
 platlib
 platlib_dir
+plats
 plen
 plist
 plist_content
@@ -56525,6 +56744,7 @@ preinit
 prelim_dst
 preload_content
 preload_module
+preloaded_context
 preloc
 preloop
 prelude
@@ -56590,6 +56810,7 @@ preserveFocusHint
 preserveTopology
 preserve_aspect_ratio
 preserve_focus_hint
+preserve_internal_border
 preserve_keys
 preserve_mode
 preserve_non_opts
@@ -56727,6 +56948,7 @@ print_cycles
 print_debug_string
 print_description
 print_dist_installation_info
+print_empty
 print_env_var_values
 print_eps
 print_event
@@ -57587,6 +57809,7 @@ pylexer
 pylight
 pyline
 pyloader
+pylock_toml
 pymalloc
 pymod
 pymtime
@@ -57694,6 +57917,7 @@ pytz
 pyvenv_cfg_file
 pyver
 pyversion
+pyversions
 pyx_file
 pyx_template_file
 pyzmq_version
@@ -58182,11 +58406,13 @@ raw_completions
 raw_conditionset
 raw_content
 raw_data
+raw_dependency_groups
 raw_fetch
 raw_file_names
 raw_filedata
 raw_find
 raw_format_data
+raw_group
 raw_input
 raw_input_str
 raw_license_expression
@@ -58431,7 +58657,6 @@ read_char
 read_chunk_size
 read_chunked
 read_chunks
-read_code
 read_code_bytes
 read_comment
 read_config
@@ -58619,6 +58844,7 @@ recarr_r
 recarray
 receive
 receive_dap_frame
+received
 received_data
 received_events
 received_filename
@@ -59054,6 +59280,7 @@ remote_version_str
 remoteip
 remotes
 removal
+removal_map
 remove
 removeData
 removeDuplicates
@@ -59187,6 +59414,7 @@ render_result
 render_right_arrow
 render_scope
 render_speed
+render_stack
 render_str
 render_string
 render_text
@@ -59202,6 +59430,7 @@ renderables
 rendered
 rendered_code
 rendered_codes
+rendered_inline
 rendered_segments
 rendered_text
 renderer
@@ -59438,6 +59667,7 @@ request_url
 requested
 requested_backend_or_gui_framework
 requested_extras
+requested_group
 requested_input
 requested_items
 requested_length
@@ -59656,6 +59886,7 @@ resolved
 resolved_bases
 resolved_dists
 resolved_family
+resolved_group
 resolved_joined
 resolved_links
 resolved_lower
@@ -59665,6 +59896,7 @@ resolved_prefix
 resolvees
 resolver
 resolver_variant
+resolvers
 resolving_conflicts
 resource
 resourceMapData
@@ -59709,6 +59941,7 @@ response_json
 response_kw
 response_msg
 response_name
+response_or_ref
 response_type
 responses
 resps
@@ -59790,6 +60023,8 @@ results
 results_printed
 resume
 resume_hinting
+resume_resp
+resume_retries
 resume_service
 resume_threads
 resumed
@@ -59839,6 +60074,7 @@ retry_date_tuple
 retry_error_partial_copy
 retry_fun
 retry_on_failure
+retry_status
 retry_wrapped
 retstep
 returnDict
@@ -59930,6 +60166,7 @@ reversedContour
 reversedPen
 reversed_obj
 reversed_url
+reversesort
 revision
 revision0
 revision1
@@ -60021,10 +60258,13 @@ right_edges
 right_half_arrow
 right_head_indexes
 right_index
+right_j_len
+right_junction_char
 right_kw
 right_length
 right_margin_widths
 right_margins
+right_padding_width
 right_ramp
 right_shift
 right_slice
@@ -60203,9 +60443,12 @@ rowLabels
 rowLoc
 row_axis
 row_count
+row_data
 row_end
+row_filter
 row_first
 row_height
+row_index
 row_inds
 row_labels
 row_order
@@ -60239,6 +60482,7 @@ rowtype
 rowvalue
 rowvar
 rp
+rpad
 rpar
 rpartition
 rpath
@@ -61281,6 +61525,7 @@ seq2
 seq_id
 seq_num
 seq_of_zeros
+seq_start
 seq_types
 seqarrays
 seqdata
@@ -62299,7 +62544,6 @@ shouldKeep
 should_add_vcs_url_prefix
 should_be_indentation
 should_build_for_install_command
-should_build_for_wheel_command
 should_bypass_proxies
 should_check_deps
 should_do_optimization
@@ -63027,6 +63271,7 @@ sortedmask
 sortedx
 sorter
 sortidx
+sortindex
 sorting_index
 sortvarnames
 source
@@ -64111,6 +64356,7 @@ stripcomma
 stripoffsets
 stripped
 stripped_args
+stripped_content
 stripped_hostname
 stripped_len
 stripped_lines
@@ -64142,6 +64388,7 @@ struct_int
 structure
 structure_keywords
 structured
+structured_output
 structured_to_unstructured
 structured_traceback
 sts
@@ -64497,6 +64744,7 @@ sum_sq
 sum_to_0d
 sum_total
 sum_w
+sum_widths
 sumall
 sumlength
 summary
@@ -75419,6 +75667,7 @@ title_str
 title_style
 title_text
 title_toolbar
+title_width
 titlecolor
 titles
 tk
@@ -75708,6 +75957,7 @@ tolerance
 tolerant
 tolist
 tomlfiles
+tomllib
 too_big_int
 too_close
 too_high
@@ -75753,7 +76003,9 @@ topSize
 top_bot
 top_dicts
 top_edge
+top_junction_char
 top_kw
+top_left_junction_char
 top_level
 top_level_thread_tracer
 top_lines
@@ -75761,6 +76013,7 @@ top_module
 top_name
 top_path
 top_prefix
+top_right_junction_char
 top_row_with_title
 top_row_without_title
 top_space
@@ -76162,6 +76415,7 @@ true_color
 true_color_offset
 true_color_string
 true_divide
+true_end
 true_intent_list
 true_iterator
 true_mask
@@ -76271,6 +76525,7 @@ ttimeoutlen
 ttinfo
 ttpen
 tty
+tty_compatible
 tty_fd
 tty_nr
 ttydev
@@ -77036,6 +77291,7 @@ update_sources
 update_stepping_info
 update_submodules
 update_text
+update_theme
 update_ticks
 update_tools
 update_trajectory
@@ -77079,6 +77335,7 @@ upperBound
 upperId
 upperLetter
 upper_bound
+upper_bounded
 upper_flags
 upper_key
 upper_level
@@ -77190,6 +77447,7 @@ use_func_first_line
 use_gridspec
 use_gzip
 use_hb_repack
+use_header_width
 use_hugepage
 use_initial
 use_interactive
@@ -78028,6 +78286,8 @@ verticalAdvanceWidth
 verticalMetricsKeptInSync
 verticalOrigins
 vertical_axis
+vertical_char
+vertical_color
 vertical_height
 vertical_overflow
 vertical_scroll
@@ -78256,6 +78516,7 @@ vrec
 vres
 vround
 vrs
+vrules
 vs
 vsIndex
 vsInstancer
@@ -78393,6 +78654,9 @@ want_unicode
 want_value
 wantdirs
 wanted
+wanted_alignments
+wanted_data
+wanted_fields
 wanted_names
 wanted_type
 wants
@@ -78486,6 +78750,7 @@ wds
 wdth
 wdth_sum
 we_have_instructions
+weak_self
 weakref_finalize
 weakref_scope
 weakroot
@@ -78544,6 +78809,7 @@ whd_list
 wheel
 wheelEvent
 wheel_args
+wheel_build_tag
 wheel_cache
 wheel_contents
 wheel_data
@@ -78551,7 +78817,6 @@ wheel_dir
 wheel_directory
 wheel_dist_info_dir
 wheel_file
-wheel_file_re
 wheel_info
 wheel_metadata
 wheel_metadata_name
@@ -78632,6 +78897,7 @@ widthsDiffer
 widthsObject
 widthtext
 widthu_per_lenu
+wiki_text
 wildcard
 wildcard_glyphs
 wildcard_unicodes
@@ -79303,6 +79569,7 @@ xg
 xh
 xheaders
 xhigh
+xhtml
 xhtml_escape
 xhtml_unescape
 xi
