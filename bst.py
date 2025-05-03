@@ -13,6 +13,15 @@ class BST:
         self.root = None
 
     def autocomplete(self, prefix):
+        """
+        Returns all values in the BST that start with the given prefix.
+        
+        Args:
+            prefix (str): The prefix to match against.
+        
+        Returns:
+            List[str]: A list of matching values.
+        """
         results = []
         self._autocomplete(self.root, prefix, results)
         return results
@@ -20,11 +29,17 @@ class BST:
     def _autocomplete(self, node, prefix, results):
         if not node:
             return
+
+        # If node matches the prefix, search both left and right
         if node.value.startswith(prefix):
-            results.append(node.value)
-        if prefix <= node.value:
             self._autocomplete(node.left, prefix, results)
-        if prefix >= node.value:
+            results.append(node.value)
+            self._autocomplete(node.right, prefix, results)
+        # If prefix is less than current value, explore left subtree
+        elif prefix < node.value:
+            self._autocomplete(node.left, prefix, results)
+        # If prefix is greater than current value, explore right subtree
+        else:
             self._autocomplete(node.right, prefix, results)
 
 # --- Build Balanced BST from Sorted Identifiers ---
