@@ -1,10 +1,12 @@
 import os
 
+# --- Optimized Trie Node ---
 class TrieNode:
     def __init__(self):
         self.children = {}
         self.is_end_of_word = False
 
+# --- Optimized Trie ---
 class Trie:
     def __init__(self):
         self.root = TrieNode()
@@ -15,29 +17,35 @@ class Trie:
             node = node.children.setdefault(ch, TrieNode())
         node.is_end_of_word = True
 
-    def autocomplete(self, prefix):
-        results = []
+    def autocomplete(self, prefix, max_results=10):
         node = self.root
-
-        # Traverse to the end of the prefix
         for ch in prefix:
             if ch not in node.children:
-                return []  # No words with this prefix
+                return []
+
             node = node.children[ch]
 
-        self._dfs(node, prefix, results)
+        return self._iterative_dfs(node, prefix, max_results)
+
+    def _iterative_dfs(self, start_node, prefix, max_results):
+        stack = [(start_node, prefix)]
+        results = []
+
+        while stack and len(results) < max_results:
+            node, current = stack.pop()
+
+            if node.is_end_of_word:
+                results.append(current)
+
+            for ch in sorted(node.children.keys(), reverse=True):  # Reverse for stack LIFO order
+                stack.append((node.children[ch], current + ch))
+
         return results
 
-    def _dfs(self, node, prefix, results):
-        if node.is_end_of_word:
-            results.append(prefix)
-        for ch, child in node.children.items():
-            self._dfs(child, prefix + ch, results)
-
-# --- Load Identifiers and Build Trie ---
+# --- Load Identifiers from File into Trie ---
 def load_identifiers_into_trie(file_path):
     if not os.path.exists(file_path):
-        print(f"File {file_path} not found.")
+        print(f"File '{file_path}' not found.")
         return None
 
     trie = Trie()
@@ -46,5 +54,17 @@ def load_identifiers_into_trie(file_path):
             word = line.strip()
             if word:
                 trie.insert(word)
-
     return trie
+
+# --- Demo ---
+if __name__ == "__main__":
+    file_path = "identifiers.txt"  # Your input file
+    trie = load_identifiers_into_trie(file_path)
+
+    if trie:
+        while True:
+            prefix = input("\nEnter prefix (or 'exit'): ").strip()
+            if prefix.lower() == "exit":
+                break
+            suggestions = trie.autocomplete(prefix, max_results=10)
+            print(f"Suggestions for '{prefix}': {suggestions}")

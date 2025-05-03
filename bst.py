@@ -7,40 +7,42 @@ class BSTNode:
         self.left = None
         self.right = None
 
-# --- BST Class with Autocomplete ---
 class BST:
     def __init__(self):
         self.root = None
 
-    def autocomplete(self, prefix):
-        """
-        Returns all values in the BST that start with the given prefix.
-        
-        Args:
-            prefix (str): The prefix to match against.
-        
-        Returns:
-            List[str]: A list of matching values.
-        """
+    def insert(self, value):
+        self.root = self._insert_recursive(self.root, value)
+
+    def _insert_recursive(self, node, value):
+        if not node:
+            return BSTNode(value)
+        if value < node.value:
+            node.left = self._insert_recursive(node.left, value)
+        else:
+            node.right = self._insert_recursive(node.right, value)
+        return node
+
+    def autocomplete(self, prefix, max_results=10):
         results = []
-        self._autocomplete(self.root, prefix, results)
+        self._autocomplete(self.root, prefix, results, max_results)
         return results
 
-    def _autocomplete(self, node, prefix, results):
-        if not node:
+    def _autocomplete(self, node, prefix, results, max_results):
+        if not node or len(results) >= max_results:
             return
 
-        # If node matches the prefix, search both left and right
+        # Explore left subtree if prefix <= node value
+        if prefix <= node.value:
+            self._autocomplete(node.left, prefix, results, max_results)
+
+        # Match found
         if node.value.startswith(prefix):
-            self._autocomplete(node.left, prefix, results)
             results.append(node.value)
-            self._autocomplete(node.right, prefix, results)
-        # If prefix is less than current value, explore left subtree
-        elif prefix < node.value:
-            self._autocomplete(node.left, prefix, results)
-        # If prefix is greater than current value, explore right subtree
-        else:
-            self._autocomplete(node.right, prefix, results)
+
+        # Explore right subtree if prefix >= node value
+        if prefix >= node.value:
+            self._autocomplete(node.right, prefix, results, max_results)
 
 # --- Build Balanced BST from Sorted Identifiers ---
 def build_balanced_bst(sorted_identifiers):
