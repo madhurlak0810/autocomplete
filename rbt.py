@@ -1,7 +1,7 @@
 import os
 
 class RBTNode:
-    def _init_(self, key, color="red"):
+    def __init__(self, key, color="red"):
         self.key = key
         self.color = color  # 'red' or 'black'
         self.left = None
@@ -12,7 +12,7 @@ class RBTNode:
         return self.color == "red"
 
 class RedBlackTree:
-    def _init_(self):
+    def __init__(self):
         self.NIL = RBTNode(None, color="black")
         self.root = self.NIL
 
@@ -117,12 +117,12 @@ class RedBlackTree:
         if prefix >= node.key:
             self._autocomplete_helper(node.right, prefix, result)
 
-def build_rbt_from_file(file_path):
+# Load identifiers from a file into the Red-Black Tree
+def load_identifiers_into_rbt(file_path):
     tree = RedBlackTree()
     with open(file_path, 'r') as f:
         for line in f:
             identifier = line.strip()
             if identifier:
                 tree.insert(identifier)
-                
     return tree
