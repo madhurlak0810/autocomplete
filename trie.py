@@ -17,21 +17,20 @@ class Trie:
             node = node.children.setdefault(ch, TrieNode())
         node.is_end_of_word = True
 
-    def autocomplete(self, prefix, max_results=10):
+    def autocomplete(self, prefix):
         node = self.root
         for ch in prefix:
             if ch not in node.children:
                 return []
-
             node = node.children[ch]
 
-        return self._iterative_dfs(node, prefix, max_results)
+        return self._iterative_dfs(node, prefix)
 
-    def _iterative_dfs(self, start_node, prefix, max_results):
+    def _iterative_dfs(self, start_node, prefix):
         stack = [(start_node, prefix)]
         results = []
 
-        while stack and len(results) < max_results:
+        while stack:
             node, current = stack.pop()
 
             if node.is_end_of_word:

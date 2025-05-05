@@ -127,7 +127,7 @@ def print_comparison_table():
     print(table)
 
 if __name__ == "__main__":
-    file_path = "/Users/rohanjain/Desktop/UMD - MSML/Sem 2/606/autocomplete/venv_identifiers.txt"
+    file_path = "venv_identifiers.txt"
     prefix = "appl"
 
     test_bst_autocomplete(file_path, prefix)
